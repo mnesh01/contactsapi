@@ -5,6 +5,8 @@ const app = express()
 
 const port = process.env.port || 5004;
 
+app.use("/api/contacts", require("./routes/contactRoutes"));
+
 app.listen(port, () =>{
     console.log(`server is running on port ${port}`)
 })
