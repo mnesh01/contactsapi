@@ -1,7 +1,7 @@
-# Contacts API
+# ContactsAPI
 
 ## Overview
-The Contacts API is a backend application built using **Node.js, Express, MongoDB, and JWT authentication**. It allows users to perform **CRUD operations** on their contacts while ensuring security through authentication and authorization mechanisms.
+ContactsAPI is a backend application built using **Node.js, Express, MongoDB, and JWT authentication**. It allows users to perform **CRUD operations** on their contacts while ensuring security through authentication and authorization mechanisms.
 
 ## Features
 - **User Authentication**: JWT-based authentication for secure access.
@@ -79,8 +79,6 @@ The API will run at `http://localhost:5005`.
 | DELETE | /api/contacts/:id   | Delete a contact |
 
 ## Contribution
-This project is open for contributions! Feel free to fork the repository and submit pull requests.
+This project is open for contributions! 
 
-## License
-This project is licensed under the MIT License.
 
